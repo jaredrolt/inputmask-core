@@ -1,10 +1,11 @@
 {
   "name": "@jaredrolt/inputmask-core",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Standalone input mask implementation, independent of any GUI",
-  "main": "lib/InputMask.ts",
+  "main": "lib/InputMask.js",
   "scripts": {
     "lint": "eslint lib test",
+    "build": "tsc",
     "test": "tape test/*.js"
   },
   "files": [
@@ -21,7 +22,8 @@
     "eslint-config-standard": "6.0.0",
     "eslint-plugin-promise": "2.0.1",
     "eslint-plugin-standard": "2.0.0",
-    "tape": "4.6.0"
+    "tape": "4.6.0",
+    "typescript": "^3.8.3"
   },
   "dependencies": {},
   "repository": {
